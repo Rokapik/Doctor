@@ -1,0 +1,148 @@
+
+h1
+{
+	text-align: center;
+margin-left: 30%;
+}
+
+html
+{position: absolute;
+	background-color: rgb(230, 244, 250);
+	font-family:'arvo'; 
+	text-shadow: 1px 1px 2px grey;
+}
+#grid
+{  
+background-color: rgb(230, 244, 250);
+background-image: url(body1.png);
+background-repeat: no-repeat;
+background-position: right;
+    max-width: 50%;
+    min-width: 50%;
+    width: 50%;
+    height: 700px;
+    position: absolute; top: 0px; left: 0px;
+    
+     
+}
+.epaule
+{
+background: black;
+  border-radius:50%;
+  width:40px;
+  height:40px;
+   position: absolute;
+  margin-left:  70%;
+  margin-top: 40%;
+  opacity: 0.5;
+
+}
+.epaule:hover
+{ transition: 1s;
+	background-color: red;
+	opacity: 0.4;
+	
+}
+.coude
+{
+background: black;
+  border-radius:50%;
+  width:40px;
+  height:40px;
+  
+  margin-left:415px;
+  margin-top: 62%;
+  opacity: 0.5;
+ 
+}
+.coude:hover
+{ transition: 1s;
+	background-color: red;
+	opacity: 0.4;
+	
+}
+.poignet
+{
+background: black;
+  border-radius:50%;
+  width:40px;
+  height:40px;
+  
+   opacity: 0.5;
+   margin-left: 300px;
+}
+.poignet:hover
+{ transition: 1s;
+	background-color: red;
+	opacity: 0.4;
+	
+}
+.hanche
+{
+background: black;
+  border-radius:50%;
+  width:40px;
+  height:40px;
+  
+   opacity: 0.5;
+  margin-left: 395px;
+  margin-top: -30px;
+}
+.hanche:hover
+{ transition: 1s;
+	background-color: red;
+	opacity: 0.4;
+	
+}
+.genoux
+{
+background: black;
+  border-radius:50%;
+  width:40px;
+  height:40px;
+  
+   opacity: 0.5;
+   margin-left: 337px;
+   margin-top: 75px;
+ 
+}
+ .genoux:hover
+ { transition: 1s;
+    background-color: red;
+	opacity: 0.4;
+	
+}
+.cheville{
+background: black;
+  border-radius:50%;
+  width:40px;
+  height:40px;
+  
+   opacity: 0.5;
+  margin-left: 380px;
+  margin-top: 42px;
+}
+.cheville:hover
+{ transition: 1s;
+	background-color: red;
+	opacity: 0.4;}
+.box
+
+{   display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 900px;
+	height: 700px;
+	margin-left: 25%;
+}
+.text
+{  
+	
+	border: 2px cyan white;
+    position: absolute; left: 53%; top: 15%;
+	width: 200px;
+	height: 500px;
+	text-align: left;
+	padding: 10px;
+	text-shadow: 1px 1px 2px grey;
+}
